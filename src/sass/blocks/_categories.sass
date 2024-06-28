@@ -1,0 +1,31 @@
+.categories
+    &__title
+        color: white
+    &__wrapper
+        margin-top: 60px
+        display: flex
+        justify-content: space-between
+    &__item
+        position: relative
+        &-photo img
+            // filter: blur(7.5px)
+            backdrop-filter: blur(7.5px)
+            border-radius: 22px 22px 0px 0px
+        &-title 
+            border-radius: 0px 0px 22px 22px
+            padding: 20px 30px
+            width: 240px
+            height: 76px
+            background-color: #3B3B3B
+            color: white
+            font-weight: 600
+            text-transform: capitalize
+            line-height: 140%
+            // position: relative
+            // z-index: 2
+        &-icon 
+            top: 70px
+            position: absolute
+            z-index: 2
+            left: 50%
+            transform: translateX(-50%)
