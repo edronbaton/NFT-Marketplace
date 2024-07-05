@@ -1,0 +1,39 @@
+@media (max-width: 1200px)
+    .collection
+        padding: 80px 0px
+        &__item
+            width: 300px
+            &-main img
+                width: 300px
+            &-other
+                display: flex
+                justify-content: space-between
+                &-addition, &-photo 
+                    width: 90px
+                    height: 90px
+
+
+@media (max-width: 992px) 
+    .collection
+        padding: 40px 0px
+        &__wrapper
+            display: flex
+            justify-content: space-between
+        &__item:last-child
+            display: none
+            &-other
+                &-addition, &-photo 
+                    width: 100px
+                    height: 10px
+
+@media (max-width: 768px) 
+    .collection
+        padding: 40px 30px
+        &__title, &__subtitle
+            text-align: center
+        &__item:nth-child(2)
+            display: none
+        &__wrapper
+            margin-top: 40px
+            justify-content: center
+            
