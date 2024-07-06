@@ -14,6 +14,8 @@
     &__button
         width: 245px
         height: 60px
+        &-hidden
+            display: none
         
         &-text 
             color: white
@@ -21,9 +23,11 @@
             margin-right: 12px
     &__content
         margin-top: 30px
-        display: flex
-        justify-content: space-between
+        display: grid
+        grid-template-columns: repeat(4, 240px)
+        grid-template-rows: repeat(3, 270px)
         align-items: center
+        justify-content: space-between
       
             
     &__item
