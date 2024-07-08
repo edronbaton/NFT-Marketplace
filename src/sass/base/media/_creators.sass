@@ -24,12 +24,14 @@
     
 @media (max-width: 992px) 
     .creators
-       #num_7, #num_8, #num_9, #num_10, #num_11, #num_12
+        padding: 40px 30px
+        #num_7, #num_8, #num_9, #num_10, #num_11, #num_12
             display: none 
+        &__content
+            grid-template-rows: repeat(3, 130px)
 
 @media (max-width: 768px) 
     .creators
-        padding: 40px 30px
         &__wrapper
             margin-bottom: 0px
         &__content
