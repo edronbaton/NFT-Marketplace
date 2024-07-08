@@ -12,6 +12,12 @@
     .categories
         padding: 0px 30px
         &__wrapper
-            grid-template-columns: repeat(2, 48%)
+            margin-top: 40px
+            grid-template-columns: repeat(3, 30%)
         &__title
             text-align: center
+
+@media (max-width: 575px) 
+    .categories
+        &__wrapper
+            grid-template-columns: repeat(2, 48%)
