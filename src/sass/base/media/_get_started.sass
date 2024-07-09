@@ -1,0 +1,57 @@
+@media (max-width: 1200px)
+    .get_started
+        &__wrapper
+            grid-template-columns: repeat(3, 32%)
+
+
+@media (max-width: 992px) 
+    .get_started
+        &__wrapper
+            grid-template-rows: repeat(1, 320px)
+        &__item
+            &-photo img 
+                width: 160px
+                height: 160px
+            &-title 
+                font-size: 16px
+            &-descr
+                font-size: 12px
+
+
+@media (max-width: 768px) 
+    .get_started
+        &__wrapper
+            grid-template-columns: repeat(3, 32%)
+        &__item
+            &-photo img 
+                width: 110px
+                height: 110px
+            
+
+
+@media (max-width: 575px) 
+    .get_started
+        padding: 40px 30px
+        &__title, &__subtitle
+            text-align: center
+        &__wrapper
+            margin-top: 40px
+            grid-template-columns: repeat(1, 100%)
+            grid-template-rows: repeat(3, auto)
+            row-gap: 20px
+        &__item
+            display: grid
+            align-items: center
+            justify-content: center
+            grid-template-columns: repeat(2, auto)
+            &-title 
+                text-align: left
+            &-descr 
+                text-align: left
+            &-photo img
+                width: 90px
+                height: 90px
+        &__data
+            padding: 10px
+            display: grid
+            text-align: left
