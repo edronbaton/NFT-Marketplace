@@ -1,0 +1,26 @@
+
+
+@media (max-width: 992px) 
+    .auction
+        &__ends
+            right: 0px
+        &__title
+            font-size: 38px
+        
+@media (max-width: 768px) 
+    .auction
+        background: url("../../img/main_baner.jpg") lightgray 50% / cover no-repeat
+        padding: 120px 30px 40px 30px
+        &__ends
+            display: none
+            &-hidden
+                margin-top: 30px
+                display: block
+                height: 145px
+                max-width: 315px
+                padding: 30px
+                background: rgba(59, 59, 59, 0.50)
+                backdrop-filter: blur(5px)
+                border-radius: 20px
+        &__title
+            width: 215px
