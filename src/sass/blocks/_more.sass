@@ -9,13 +9,16 @@
             height: 60px
             &-icon 
                 margin-right: 12px
+            &-hidden
+                display: none
     &__title, &__subtitle 
         color: white
     &__subtitle 
         font-weight: 300
     &__wrapper
         margin-top: 60px
-        display: flex
+        display: grid
+        grid-template-columns: repeat(3, auto)
         justify-content: space-between
     &__item
         &-photo img
@@ -47,3 +50,4 @@
                 span
                     color: white
                     
+        
