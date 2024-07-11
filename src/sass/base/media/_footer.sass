@@ -1,0 +1,30 @@
+@media (max-width: 992px) 
+    .footer
+        padding: 40px 0px
+        &__first-column
+            margin-left: 0px
+        &__second-column, &__third-column
+            margin-top: 30px
+        &__wrapper
+            flex-direction: column
+
+@media (max-width: 768px) 
+    .footer
+        padding: 40px 30px
+        
+
+
+@media (max-width: 575px) 
+    .footer
+        &__third-column
+            margin-right: 0px
+            &-form
+                flex-direction: column
+                input
+                    height: 45px
+                    border-radius: 20px
+                &-button 
+                    height: 45px
+                    margin-top: 16px
+                    right: 0px
+                    width: 100%
